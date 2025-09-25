@@ -1,1 +1,50 @@
 /* your code here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.product__photo {
+  width: 350px;
+  background-color: green;
+  border-radius: 8px;
+  margin: 10px;
+}
+.photo-container{
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 8px;
+}
+.photo-main > img {
+  height: 350px;
+}
+.photo-album {
+  background-color: white;
+  height: 100px;
+  padding: 20px 5px;
+  border-radius: 0 0 8px 8px;
+}
+.photo-album > ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+.photo-album > ul > li {
+  border: 1px solid black;
+  margin-right: 5px;
+}
+.photo-album > ul > li > img {
+  text-align: center;
+}
+.price > span {
+  text-decoration: underline;
+  background-color: #FFFF00;
+  color: #000; 
+  font-weight: bold; 
+}
+
+.btn{
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
